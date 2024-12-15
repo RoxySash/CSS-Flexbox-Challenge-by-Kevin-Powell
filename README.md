@@ -16,7 +16,11 @@ I added this file to give an explanation for my take on this project.
 This project was given by Kevin Powell I am almost finished with his 21 day courses and I have learnt so much about CSS, working with grid and flexbox. I always loved flexbox but I learning that certain projects will need the grid layout.
 
 
-Link to live site [View] ()
+Resources
+
+John default css reset (https://www.joshwcomeau.com/css/custom-css-reset/)
+
+Link to live site [Site] (https://roxysash.github.io/CSS-Flexbox-Challenge-by-Kevin-Powell/)
 Link to view code [Github] (https://github.com/RoxySash/CSS-Flexbox-Challenge-by-Kevin-Powell.git)
 
 Author 
