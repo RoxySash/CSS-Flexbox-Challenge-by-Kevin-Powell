@@ -200,6 +200,8 @@ h3 {
 
     body {
       margin: 0 auto;
+     
+
     }
 
     .qaulity-flex {
@@ -271,6 +273,15 @@ h3 {
       margin: auto;
     }
 
+  }
+
+  @media (device-width : 375px) {
+    .hero {
+      padding-top: 20px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    }
   }
   /* After finishing the challenge i realized that there was a pink or peach border but i never put a border on the img
   * i researched and tried the border:0; on the img selector and it wasnt removed 
