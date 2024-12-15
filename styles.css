@@ -275,20 +275,5 @@ h3 {
 
   }
 
-  @media (device-width : 375px) {
-    .hero {
-      padding-top: 20px;
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-    }
-  }
-  /* After finishing the challenge i realized that there was a pink or peach border but i never put a border on the img
-  * i researched and tried the border:0; on the img selector and it wasnt removed 
-  * currently i have the color of the text for areas three and four maybe if i change it 
-  * so kevin said the images from figma came with the broder lines no need to worry
-  */
-
-  /* this is too much code but i need to make this responsive to mobile */ 
-
+  /* challenge completed im satisfied */
   
