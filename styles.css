@@ -1,0 +1,204 @@
+/* 1. Use a more-intuitive box-sizing model */
+*, *::before, *::after {
+    box-sizing: border-box;
+  }
+  
+  /* 2. Remove default margin */
+  * {
+    margin: 0;
+  }
+  
+  body {
+    /* 3. Add accessible line-height */
+    line-height: 1.5;
+    /* 4. Improve text rendering */
+    -webkit-font-smoothing: antialiased;
+    /* added height below */
+    height: 100vh;
+  }
+  
+  /* 5. Improve media defaults */
+  img, picture, video, canvas, svg {
+    display: block;
+    max-width: 100%;
+    border: 0;
+  }
+  
+  /* 6. Inherit fonts for form controls */
+  input, button, textarea, select {
+    font: inherit;
+  }
+  
+  /* 7. Avoid text overflows */
+  p, h1, h2, h3, h4, h5, h6 {
+    overflow-wrap: break-word;
+  }
+  
+  /* 8. Improve line wrapping */
+  p {
+    text-wrap: pretty;
+    font-family: "Roboto", sans-serif;
+    font-size: 18px;
+  }
+  h1, h2, h3, h4, h5, h6 {
+    text-wrap: balance;
+  }
+  
+  /*
+    9. Create a root stacking context
+  */
+  #root, #__next {
+    isolation: isolate;
+  }
+
+  /* my css below*/
+
+  :root {
+    --peach-color: #F3EED9;
+    --brown-color: #824936;
+    --green-color: #222C2A;
+    --font-size-light: 18px;
+    --font-size-black-larger: 60px;
+    --font-size-black-large: 36px;
+    --font-size-regular: 21px;
+
+  }
+
+  .container {  
+    max-width: 1128px;
+  }
+
+  .hero {
+   
+    min-height: 660px;
+    background-color: var(--peach-color);
+    max-width: 100%;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+  }
+
+.top-hero-text {
+    font-family: "Roboto", sans-serif;
+    font-size: var(--font-size-light);
+    text-transform: capitalize;
+    font-weight: 100;
+    
+}
+
+span {
+    margin-left: 1em;
+}
+
+/* had some trouble putting space in between the top hero text word spacing did not work at all */
+
+  h1 {
+    font-family: "Playfair", serif;
+    font-size: var(--font-size-black-larger);
+    color: var(--brown-color);
+    font-weight: bolder;
+    line-height: 90%;
+
+  }
+
+  .hero-text {
+    
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 80%;
+    margin: 0 auto;
+    max-width: 750px;
+    
+  }
+/* 
+  .second-area-content {
+   border: 4px solid black; 
+  }
+*/
+  .row-one {
+    padding-top: 50px;
+  }
+
+ .qaulity-flex {
+    display: flex;
+    flex-direction: row;
+    text-align: left;
+    padding: 100px;
+    padding-top: 40px;
+ }
+
+ .col-one {
+    width: 47%;
+ }
+
+ .col-two {
+    width: 47%;
+    margin-left: 6%;
+ }
+
+  h2 {
+    text-align: center;
+    color: var(--brown-color);
+    font-family: "Playfair", serif;
+    font-size: var(--font-size-black-large);
+  }
+
+  .third-area-content {
+    background-color: var(--green-color);
+    display: flex;
+    height: 400px;
+    padding: 50px 100px;
+    
+  }
+
+  .third-area-text {
+    width: 47%;
+    text-align: justify;
+    color: var(--peach-color);
+
+  }
+
+  .third-area-image {
+    width: 47%;
+    margin-left: 6%;
+    display: flex;
+    justify-content: center;
+  }
+
+h3 {
+    font-family: "Playfair", serif;
+    font-size: 30px;
+    padding-bottom: 20px;
+}
+
+
+  .fourth-area-content {
+    
+    background-color: var(--brown-color);
+    display: flex;
+    height: 400px;
+    padding: 50px 100px;
+    color: var(--peach-color);
+  }
+
+  .fourth-area-text {
+    width: 47%;
+    text-align: justify;
+    
+
+  }
+
+  .fourth-area-image {
+    width: 47%;
+    margin-right: 6%;
+    display: flex;
+    justify-content: center;
+    
+  }
+
+  /* After finishing the challenge i realized that there was a pink or peach border but i never put a border on the img
+  * i researched and tried the border:0; on the img selector and it wasnt removed 
+  * currently i have the color of the text for areas three and four maybe if i change it 
+  *
+  */
