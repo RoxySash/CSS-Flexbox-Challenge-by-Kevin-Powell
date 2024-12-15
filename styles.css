@@ -196,9 +196,88 @@ h3 {
     justify-content: center;
     
   }
+  @media (max-width: 600px) {
 
+    body {
+      margin: 0 auto;
+    }
+
+    .qaulity-flex {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      padding: 40px;
+
+    }
+    .col-one {
+      margin: 0 20px;
+      width: 80%;
+      text-align: center;
+
+    }
+    .col-two {
+      margin: 0 20px;
+      width: 80%;
+      text-align: center;
+      margin-top: 30px;
+
+    }
+
+    .third-area-content {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      height: 600px;
+      padding: 40px;
+      
+     
+
+    }
+    .third-area-text {
+      width: 80%;
+      text-align: center;
+      
+
+    }
+
+    .third-area-image {
+      width: 80%;
+      padding-top: 20px;
+      justify-content: center;
+      margin: auto;
+    }
+
+    .fourth-area-content {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      height: 600px;
+      padding: 40px;
+    }
+
+    .fourth-area-text {
+      width: 80%;
+      text-align: center;
+      padding-top: 20px;
+
+    }
+
+    .fourth-area-image {
+      width: 80%;
+      justify-content: center;
+      margin: auto;
+    }
+
+  }
   /* After finishing the challenge i realized that there was a pink or peach border but i never put a border on the img
   * i researched and tried the border:0; on the img selector and it wasnt removed 
   * currently i have the color of the text for areas three and four maybe if i change it 
-  *
+  * so kevin said the images from figma came with the broder lines no need to worry
   */
+
+  /* this is too much code but i need to make this responsive to mobile */ 
+
+  
